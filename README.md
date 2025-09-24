@@ -5,13 +5,12 @@ This porject documents the process of setting up a virtual Active Directory Envi
 
 ## Tools Used
 - Virtualbox
-  - Windows Server 2022 Evaluation
+  - Windows Server 2022 Evaluation Edition
   - Windows 11 Pro
 - Powershell
 - Active Directory Domain Services (AD DS)
 - DNS, DHCP
 - Group Policy Management
 
-## Setup Overview
-1. Installed Windows Server 2022 Evaluation on Virtualbox
-2. 
+## Setup Guide
+The step-by-step guide with screenshots is available in [docs/setup.md](docs/setup.md) 
