@@ -1,13 +1,10 @@
 # Active-Directory-Homelab
-Documentation of an active directory on Windows Server 2022
-
-This porject documents the process of setting up a virtual Active Directory Environment using Windows Server 2022 on a virtual machine.
+Documentation of setting up Active Directory services on a Windows Server 2022 VM
 
 ## Tools Used
 - Virtualbox
   - Windows Server 2022 Evaluation Edition
   - Windows 11 Pro
-- Powershell
 - Active Directory Domain Services (AD DS)
 - DNS, DHCP
 - Group Policy Management
