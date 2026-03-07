@@ -24,4 +24,4 @@ To do this, I go back to the Active Directory Users and Computers tool, find the
   - In a real environment, new employees will need an account within the local
     domain, and the domain's AD will need a new account for them to manage and
     control resources to. This demonstraits how to complete a task that will
-    be completed often, especially at larget companies. 
+    be completed often, especially at larger companies. 
