@@ -25,3 +25,7 @@ To do this, I go back to the Active Directory Users and Computers tool, find the
     domain, and the domain's AD will need a new account for them to manage and
     control resources to. This demonstraits how to complete a task that will
     be completed often, especially at larger companies. 
+
+  - This task can and should be automated when multiple users need 
+    to simultaneously be created repeatedly. This can be done through a
+    Powershell script that uses a CSV file as input. 
