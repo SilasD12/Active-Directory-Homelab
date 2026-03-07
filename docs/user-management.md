@@ -3,6 +3,8 @@ To simulate usual user scenarios in AD, like password resets,
 unlocking accounts, forcing password changes, adding users and removing users,
 disablling accounts, and moving users.
 
+Most of the time, a ticket from a user will be submitted requesting a password reset and/or account unlock. This will document how that is handled in an AD environment. 
+
 #### What I configured:
 In an OU called "Accounting", the user Alice Smith needed their password reset, so I right-clicked their name and selected, "reset password", and then entered a temperary password and selected the option for the user to change it on logon. Then, I went to the user's properties and, in the account tab, checked "Unlocked account"
 
