@@ -30,3 +30,6 @@ The Accouting OU provides the necessary files and objects for Jack Smart's job i
   - This task can and should be automated when multiple users need 
     to simultaneously be created repeatedly. This can be done through a
     Powershell script that uses a CSV file as input. 
+
+**3. Disable a user's account** - 
+Marketing employee Mark Strong is leaving the company. His account was disabled 
