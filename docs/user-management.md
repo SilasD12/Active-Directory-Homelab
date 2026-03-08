@@ -50,9 +50,19 @@ Accounting employee Charlie Brown is leaving the company today. The domain accou
   - When an employee leaves a company, their domain account must be disabled, and eventually deleted if the employee doesn't come back. This is to make sure that the user cannot access company resources, but if they are rehired, their account and associated OUs, groups, and objects can be reinstated easily. This is why an audit trail of the account is important to take. 
 
 **4. Migrating a user's domain account to another OU**
-- Jane Doe has accepted a new position in the Management department. Jane Doe's domain account must be updated and placed into the proper OUs and security groups. The account will be removed from the accounting security group and moved to the management security group and the Management OU. 
+- Bob Jones has accepted a new position in the Management department. Bob Jones' domain account must be updated and placed into the proper OUs and security groups. The account will be removed from the accounting security group and moved to the management security group and the Management OU. 
 
 - The audit trail
-  - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/9ea34246-af4c-4e5e-a810-de857369724a" />
+  - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/59ccd940-1129-445a-a866-12863a0081e5" />
 
-- 
+- Removing Bob Jones from the accounting security group
+  - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/e7f935e2-df88-4bba-a47d-afe52d2a0ad2" />
+
+- Add Bob Jones to the management security group
+  - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/7966adc9-bfe1-47ad-b67b-6ec43515ac8e" />
+
+- Move Bob Jones from Accounting OU to Management OU
+  - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/981beddf-06fd-4889-85e6-3672b1661d7a" />
+
+- #### What this mirrors:
+  - Simply moving an account between OUs does not update a user's resource access. Group memberships must be updated separately to ensure the user loses access to their previous department's resources and gains access to their new ones. Failing to updatee group memberships during a transfer is a common security oversight in real environments. 
