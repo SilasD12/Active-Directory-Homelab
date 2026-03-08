@@ -1,7 +1,7 @@
 #### The goal: 
 To simulate usual user scenarios in AD, like password resets,
 unlocking accounts, forcing password changes, adding users and removing users,
-disablling accounts, and moving users.
+disabling accounts, and moving users.
 
 
 #### What I configured:
@@ -17,7 +17,7 @@ The user Alice Smith in the Accounting OU needed their password reset and accoun
 **2. Adding a new user** - 
 A new hire, Jack Smart, is joining the Accounting department. Created a new user in the Accounting OU and entered the user's name and username. His account will have a temporary password that will be changed on logon. 
 
-The Accouting OU provides the necessary files and objects for Jack Smart's job in the Accounting department, ensuring his account follows the Principle of Least Privilege. 
+The Accounting OU provides the necessary files and objects for Jack Smart's job in the Accounting department, ensuring his account follows the Principle of Least Privilege. 
 
 - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/b6cd6264-1143-4670-90a5-08f285350317" />
 
