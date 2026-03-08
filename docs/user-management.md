@@ -32,4 +32,8 @@ The Accouting OU provides the necessary files and objects for Jack Smart's job i
     Powershell script that uses a CSV file as input. 
 
 **3. Disable a user's account** - 
-Marketing employee Mark Strong is leaving the company. His account was disabled 
+Accounting employee Charlie Brown is leaving the company today. The domain account must be offboarded following standard procedure. His account is disabled through right-clicking on it and is moved from the Accounting OU to the Disabled Users OU. Any email or MFA keys would be removed from his account, and the OU and Security groups the account was part of would be documented.
+
+- <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/e6d2fb12-b0a7-4d65-b21a-c2a75eb20eb5" />
+
+-  <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/e4559357-1bd7-4636-a7db-a5fd02ddd640" />
