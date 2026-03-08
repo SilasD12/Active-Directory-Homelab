@@ -34,6 +34,14 @@ The Accouting OU provides the necessary files and objects for Jack Smart's job i
 **3. Disable a user's account** - 
 Accounting employee Charlie Brown is leaving the company today. The domain account must be offboarded following standard procedure. His account is disabled through right-clicking on it and is moved from the Accounting OU to the Disabled Users OU. Any email or MFA keys would be removed from his account, and the OU and Security groups the account was part of would be documented.
 
-- <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/e6d2fb12-b0a7-4d65-b21a-c2a75eb20eb5" />
+- The audit trail
+  - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/e6d2fb12-b0a7-4d65-b21a-c2a75eb20eb5" />
 
--  <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/e4559357-1bd7-4636-a7db-a5fd02ddd640" />
+- Removing the user from the Accounting Group
+  -  <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/e4559357-1bd7-4636-a7db-a5fd02ddd640" />
+
+- Disabling the user's account and adding it to the DisabledUsers OU
+  - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/a22bfce8-1db4-40c1-bfe3-bd58883c1bfe" />
+
+- #### What this mirrors:
+  - When an employee leaves a company, their domain account must be disabled, and eventually deleted if the employee doesn't come back. This is to make sure that the user cannot access company resources, but if they are rehired, their account and associated OUs, groups, and objects can be reinstated easily. This is why an audit trail of the account is important to take. 
