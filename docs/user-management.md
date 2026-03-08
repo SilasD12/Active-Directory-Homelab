@@ -15,7 +15,7 @@ The user Alice Smith in the Accounting OU needed their password reset and accoun
   - In a real environment, users constantly forget their passwords and end up       locking themselves out after trying to guess it. We've all had to send a       code to our email to reset the password to an online account. Luckily, AD       allows IT to simply change a user's password, prompt them to change it         when they logon, and unlock their account after failed attemps - all in         one place.
 
 **2. Adding a new user** - 
-A new hire, Jack Smart, is joining the Accounting department. Created a new user in the Accounting OU and entered the user's name and username. His account will have a temporory password that will be changed on logon. 
+A new hire, Jack Smart, is joining the Accounting department. Created a new user in the Accounting OU and entered the user's name and username. His account will have a temporary password that will be changed on logon. 
 
 The Accouting OU provides the necessary files and objects for Jack Smart's job in the Accounting department, ensuring his account follows the Principle of Least Privilege. 
 
@@ -24,7 +24,7 @@ The Accouting OU provides the necessary files and objects for Jack Smart's job i
 - #### What this mirrors:
   - In a real environment, new employees will need an account within the local
     domain, and the domain's AD will need a new account for them to manage and
-    control resources to. This demonstraits how to complete a task that will
+    control resources to. This demonstrates how to complete a task that will
     be completed often, especially at larger companies. 
 
   - This task can and should be automated when multiple users need 
@@ -32,7 +32,7 @@ The Accouting OU provides the necessary files and objects for Jack Smart's job i
     Powershell script that uses a CSV file as input. 
 
 **3. Disable a user's account** - 
-Accounting employee Charlie Brown is leaving the company today. The domain account must be offboarded following standard procedure. His account is disabled through right-clicking on it and is moved from the Accounting OU to the Disabled Users OU. Any email or MFA keys would be removed from his account, and the OU and Security groups the account was part of would be documented.
+Accounting employee Charlie Brown is leaving the company today. The domain account must be offboarded following standard procedure. His account is disabled through right-clicking on it and is moved from the Accounting OU to the Disabled Users OU. In a production environment, additional steps would include revoking MFA tokens, delegating the user's email to their manager, and deactivating any VPN certificates.
 
 - The audit trail
   - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/e6d2fb12-b0a7-4d65-b21a-c2a75eb20eb5" />
@@ -42,6 +42,9 @@ Accounting employee Charlie Brown is leaving the company today. The domain accou
 
 - Disabling the user's account and adding it to the DisabledUsers OU
   - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/a22bfce8-1db4-40c1-bfe3-bd58883c1bfe" />
+
+- Resetting the account's password to a random string
+  - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/c7e60a45-3ef3-4ce4-a4a5-0be025bd356f" />
 
 - #### What this mirrors:
   - When an employee leaves a company, their domain account must be disabled, and eventually deleted if the employee doesn't come back. This is to make sure that the user cannot access company resources, but if they are rehired, their account and associated OUs, groups, and objects can be reinstated easily. This is why an audit trail of the account is important to take. 
