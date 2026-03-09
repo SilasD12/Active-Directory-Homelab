@@ -11,7 +11,10 @@
 - **Restrict Control Panel Policy**
   - This policy is applied to select OUs and prohibits their users from accesing the control panel.
     - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/3baaa210-bdba-4577-b672-f168d2d01b1a" />
-
+    
+    - What this mirrors:
+      - Users besides IT do not have a reason to access the Window's Control Panel for their job duties. This follows the Principle of Least Privilege and ensures users are not accessing more than necessary. Plus, the control panel houses settings that can be problematic if accessed by the wrong or malicious actor. 
+  
 - **Password Policy**
   - This policy is enabled domain-wide and is configured in the Default Domain Policy GPO
   - Sets password requirements to make domain accounts more secure
