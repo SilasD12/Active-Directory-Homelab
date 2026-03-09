@@ -1,9 +1,9 @@
 # Active-Directory-Homelab
-Documentation of setting up Active Directory services on a Windows Server 2022 VM
+Documentation of setting up Active Directory services on a Windows Server 2025 VM
 
 ## Tools Used
-- Virtualbox
-  - Windows Server 2022 Evaluation Edition
+- QEMU/KVM
+  - Windows Server 2025 Evaluation Edition
   - Windows 11 Pro
 - Active Directory Domain Services (AD DS)
 - DNS, DHCP
