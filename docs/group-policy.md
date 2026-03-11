@@ -25,4 +25,4 @@
     - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/9bdeea45-0dbc-4dad-b669-94abe3a1a213" />
 
   - What this mirrors:
-    - It follows NIST's password guidelines, such as a minimum password length of 8 characters, as well as potential company security standards. Password brute force attacks or leaks occur constantly and a password policy is necessary to make sure users are protecting themselves from such attacks by not setting a basic password. 
+    - Password expiration policies like 90-day rotation are common in enterprise environments and align with traditional security standards. If a user is forced to change their password frequently, the password the user sets will be similar to their previous password, and the password becomes weaker overtime. The settings also protect against password brute force attacks or leaks occur constantly and a password policy is necessary to make sure users are protecting themselves from such attacks by not setting a basic password. 
