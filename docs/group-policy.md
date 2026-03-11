@@ -7,7 +7,7 @@
     - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/8077d566-e019-4db9-9016-225eaf8a934e" />
 
   - What this mirrors:
-    - It is a compliance requirement in many industries to have users screenlocks, so their computer cannot be accessed while they are away.  
+    - It is a compliance requirement in many industries to have users screenlocks, so their computer cannot be accessed while they are away. Accessing an unlocked computer can put the employee's and the company's data in risk of being stolen.
 
 - **Restrict Control Panel Policy**
   - This policy is applied to prohibit users from accessing the control panel and changing/configuring settings. 
