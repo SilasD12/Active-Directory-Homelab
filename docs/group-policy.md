@@ -26,3 +26,10 @@
 
   - What this mirrors:
     - Password expiration policies like 90-day rotation are common in enterprise environments and align with traditional security standards. If a user is forced to change their password frequently, the password the user sets will be similar to their previous password, and the password becomes weaker overtime. The settings also protect against password brute force attacks or leaks occur constantly and a password policy is necessary to make sure users are protecting themselves from such attacks by not setting a basic password. 
+
+- **Disable USB Storage**
+  - This policy is to ensure no external USB drives can be plugged into the computer.
+  - The policy is linked to all OUs that do not need to use external USB drives.
+  - The GPO made it to where users cannot connect external storage devices, preventing data being copied from and to the machine. This mitigates data leakage and prevents malware from bad actors.
+  - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/56b33479-8428-4539-b4f2-ea0462b89526" />
+ 
