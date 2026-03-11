@@ -10,7 +10,7 @@
     - It is a compliance requirement in many industries to have users screenlocks, so their computer cannot be accessed while they are away.  
 
 - **Restrict Control Panel Policy**
-  - This policy is applied to prohibit users from accesing the control panel and changing/configuring settings. 
+  - This policy is applied to prohibit users from accessing the control panel and changing/configuring settings. 
   - The policy is linked to all OUs besides the IT department's OU.
   - Only has prohibit access to Control Panel and PC settings, since the rest are settings for the Control Panel. 
     - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/3baaa210-bdba-4577-b672-f168d2d01b1a" />
@@ -21,7 +21,7 @@
 - **Password Policy**
   - This policy sets password requirements to make domain accounts more secure.
   - The policy is linked domain-wide and set in the Default Domain Policy GPO, since it already has a password policy applied.
-  - What changed was the maximum password age to 90 days, minimum password length to 10 characters, and the 5 passwords rememebered. 
+  - What changed was the maximum password age to 90 days, minimum password length to 10 characters, and the 5 passwords remembered. 
     - <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/9bdeea45-0dbc-4dad-b669-94abe3a1a213" />
 
   - What this mirrors:
